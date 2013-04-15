@@ -1,4 +1,4 @@
-FILENAME = '13.txt'
+FILENAME = '013.txt'
 f = open(FILENAME, 'r')
 numArray = []
 bigSum = 0

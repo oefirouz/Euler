@@ -1,4 +1,4 @@
-FILENAME = '8.txt'
+FILENAME = '008.txt'
 f = open(FILENAME, 'r')
 numList = []
 for line in f:

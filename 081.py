@@ -1,6 +1,6 @@
 #!/usr/bin/python3.2
 
-raw_matrix = open('81.txt', 'r').read().splitlines()
+raw_matrix = open('081.txt', 'r').read().splitlines()
 matrix = {}
 
 for (i,line) in enumerate(raw_matrix):

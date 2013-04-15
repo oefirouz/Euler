@@ -1,4 +1,4 @@
-FILENAME = '22.txt'
+FILENAME = '022.txt'
 
 def nScore(name):
     return sum(map(lambda x: ord(x) - 64, name))

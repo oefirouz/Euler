@@ -1,6 +1,6 @@
 #!/usr/bin/python3.2
 import math
-FILENAME = '99.txt'
+FILENAME = '099.txt'
 
 lines = open(FILENAME).readlines()
 numPairs = [[int(line.split(',')[0]), int(line.split(',')[1])] for line in lines]

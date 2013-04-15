@@ -1,4 +1,4 @@
-FILENAME = '67.txt'
+FILENAME = '067.txt'
 f = open(FILENAME, 'r')
 
 numArray = []
