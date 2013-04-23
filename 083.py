@@ -21,8 +21,8 @@ for y in range(0,len(matrix)):
 def djikstra(G,s,t):
     shortestPaths = {}
     d = {x:1000000000 for x in G}
-    d['s'] = 0
-    d['t'] = 100000000
+    d[s] = 0
+    d[t] = 100000000
     while len(d) != 0:
         cur = min(d, key=d.get)
         if (cur == t): return d[cur]
